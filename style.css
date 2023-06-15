@@ -1,0 +1,77 @@
+.container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.container__search {
+}
+
+.container__search-input {
+  width: 80%;
+}
+
+.container__search-logo {
+  font-size: 2rem;
+  color: #4bb9ad;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container__search-info {
+  text-align: left;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.container__search-suggestion {
+  width: 40%;
+  /* min-width: 100px;
+  min-height: 40px;
+  max-height: 200px; */
+  background-color: RGBA(90, 210, 255, 0.1);
+  cursor: pointer;
+}
+
+.container__search-description {
+  width: 40%;
+  /* min-width: 100px;
+  min-height: 40px; */
+}
+.container__search-colum {
+  margin: 0;
+  padding: 2px;
+  box-shadow: 0px 8px 16px 0px RGBA(90, 210, 255, 0.1);
+  max-height: 400px;
+  overflow-y: auto;
+}
+.container__search-row {
+  margin-top: 5px;
+  border-radius: 3px;
+  list-style-type: none;
+  padding: 5px;
+  background-color: RGBA(90, 210, 255, 0.4);
+  transition: 0.2s;
+}
+
+.container__search-row:hover {
+  background-color: RGBA(80, 210, 255, 0.8);
+}
+
+.container__search-description-block {
+  margin-top: 7px;
+  padding: 7px;
+  background-color: RGBA(90, 210, 255, 0.4);
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+.container-alert_DaData {
+  background-color: RGBA(0, 255, 0, 0.5);
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  transform: translate(0, -50%);
+  margin-left: 50%; 
+  width: 100px;
+}
